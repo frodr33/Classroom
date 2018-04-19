@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 430832729}
   - component: {fileID: 430832728}
   - component: {fileID: 430832726}
+  - component: {fileID: 430832727}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -502,6 +503,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 356d8e4f52fd592458f3384bc314af72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &430832727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 430832725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc649437f002449469605d737c0fbf3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upperArm: {fileID: 0}
+  forearm: {fileID: 0}
+  hand: {fileID: 0}
+  target: {fileID: 0}
+  elbowTarget: {fileID: 0}
+  IsEnabled: 0
+  debug: 0
+  transition: 0
 --- !u!23 &430832728
 MeshRenderer:
   m_ObjectHideFlags: 0

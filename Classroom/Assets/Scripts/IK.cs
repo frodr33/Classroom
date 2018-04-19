@@ -1,19 +1,48 @@
-﻿//START IK
-/*
-var upperArm : Transform;
-var forearm : Transform;
-var hand : Transform;
-var target : Transform;
-var elbowTarget : Transform;
-var IsEnabled : boolean = true;
-var debug : boolean = true;
-var transition : float = 1.0;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-private var upperArmStartRotation : Quaternion;
-private var forearmStartRotation : Quaternion;
-private var handStartRotation : Quaternion;
-private var targetRelativeStartPosition : Vector3;
-private var elbowTargetRelativeStartPosition : Vector3;
+
+/* This is in inverse kinematics script for calculating 
+ * limb positions based on the positions of the controllers */
+public class IK : MonoBehaviour {
+
+	// Init Public Variables
+	public Transform upperArm;
+	public Transform forearm;
+	public Transform hand;
+	public Transform target;
+	public Transform elbowTarget;
+	public bool IsEnabled;
+	public bool debug;
+	public float transition;
+
+	// Init Private Variables
+	private Quaternion upperArmStartRotation;
+	private Quaternion forearmStartRotation;
+	private Quaternion handStartRotation;
+	private Vector3 targetRelativeStartPosition;
+	private Vector3 elbowTargetRelativeStartPosition;
+
+	/* At beginning of execution, assign initialize variables */
+	void start () {
+		upperArmStartRotation = upperArm.rotation;
+		forearmStartRotation = forearm.rotation;
+		handStartRotation = hand.rotation;
+		targetRelativeStartPosition = target.position - upperArm.position;
+		elbowTargetRelativeStartPosition = elbowTarget.position - upperArm.position;
+	}
+
+
+	void update () {}
+
+}
+
+
+
+//START IK
+/*
+
 
 function Start()
 {
