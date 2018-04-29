@@ -46,8 +46,9 @@ public class IK : MonoBehaviour {
 		float forearmLength = Vector3.Distance(forearm.position, hand.position); 
 		float armLength = upperArmLength + forearmLength; 
 		float hypotenuse = upperArmLength; 
-		float targetDistance = Mathf.Min (targetDistance, armLength - 0.0001);
-		float adjacent = (Mathf.Pow(hypotenuse, 2.0) - Mathf.Pow(forearmLength, 2.0) + Mathf.Pow(targetDistance, 2.0));
+		float targetDistance = Vector3.Distance (upperArm.position, target.position);
+		targetDistance = Mathf.Min (targetDistance, armLength - 0.0001f);
+		float adjacent = (Mathf.Pow(hypotenuse, 2.0f) - Mathf.Pow(forearmLength, 2.0f) + Mathf.Pow(targetDistance, 2.0f));
 		float ikAngle = Mathf.Acos(adjacent / hypotenuse) * Mathf.Rad2Deg;
 		//Store pre-ik info.
 		Vector3 targetPosition = target.position;
@@ -92,7 +93,8 @@ public class IK : MonoBehaviour {
 		elbowTarget.position = elbowTargetPosition;
 		//Apply rotation for temporary game objects.
 		upperArmAxisCorrection.transform.LookAt(target, elbowTarget.position - upperArmAxisCorrection.transform.position);
-		upperArmAxisCorrection.transform.localRotation.eulerAngles.x -= ikAngle;
+		float xAngle = upperArmAxisCorrection.transform.localRotation.eulerAngles.x;
+		xAngle -= ikAngle;
 		forearmAxisCorrection.transform.LookAt(target, elbowTarget.position - upperArmAxisCorrection.transform.position);
 		handAxisCorrection.transform.rotation = target.rotation;
 		//Restore limbs.
