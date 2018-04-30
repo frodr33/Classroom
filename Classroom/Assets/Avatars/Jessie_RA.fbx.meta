@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 32b4785b23192e84f8dda13209e605ed
+timeCreated: 1524944229
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: abdomen 1
+    100004: abdomen 2
+    100006: abdomen 3
+    100008: abdomen2
+    100010: abdomen2 1
+    100012: abdomen2 2
+    100014: abdomen2 3
+    100016: Casual Pants_17103
+    100018: Casual Pants_17103.Shape
+    100020: chest
+    100022: chest 1
+    100024: chest 2
+    100026: chest 3
+    100028: DoubleTshirtGenesis
+    100030: DoubleTshirtGenesis.Shape
+    100032: Genesis
+    100034: Genesis.Shape
+    100036: head
+    100038: head 1
+    100040: head 2
+    100042: hip
+    100044: hip 1
+    100046: hip 2
+    100048: hip 3
+    100050: //RootNode
+    100052: lBigToe
+    100054: lBigToe 1
+    100056: lCarpal1
+    100058: lCarpal1 1
+    100060: lCarpal2
+    100062: lCarpal2 1
+    100064: lCollar
+    100066: lCollar 1
+    100068: lCollar 2
+    100070: lCollar 3
+    100072: lEye
+    100074: lEye 1
+    100076: lFoot
+    100078: lFoot 1
+    100080: lForeArm
+    100082: lForeArm 1
+    100084: lForeArm 2
+    100086: lHand
+    100088: lHand 1
+    100090: lIndex1
+    100092: lIndex2
+    100094: lIndex3
+    100096: lMid1
+    100098: lMid2
+    100100: lMid3
+    100102: lowerJaw
+    100104: lowerJaw 1
+    100106: lPectoral
+    100108: lPectoral 1
+    100110: lPectoral 2
+    100112: lPectoral 3
+    100114: lPinky1
+    100116: lPinky2
+    100118: lPinky3
+    100120: lRing1
+    100122: lRing2
+    100124: lRing3
+    100126: lShin
+    100128: lShin 1
+    100130: lShin 2
+    100132: lShldr
+    100134: lShldr 1
+    100136: lShldr 2
+    100138: lThigh
+    100140: lThigh 1
+    100142: lThigh 2
+    100144: lThumb1
+    100146: lThumb1 1
+    100148: lThumb2
+    100150: lThumb2 1
+    100152: lThumb3
+    100154: lToe
+    100156: lToe 1
+    100158: neck
+    100160: neck 1
+    100162: neck 2
+    100164: neck 3
+    100166: pelvis
+    100168: pelvis 1
+    100170: pelvis 2
+    100172: pelvis 3
+    100174: rBigToe
+    100176: rBigToe 1
+    100178: rCarpal1
+    100180: rCarpal1 1
+    100182: rCarpal2
+    100184: rCarpal2 1
+    100186: rCollar
+    100188: rCollar 1
+    100190: rCollar 2
+    100192: rCollar 3
+    100194: rEye
+    100196: rEye 1
+    100198: rFoot
+    100200: rFoot 1
+    100202: rForeArm
+    100204: rForeArm 1
+    100206: rForeArm 2
+    100208: rHand
+    100210: rHand 1
+    100212: rIndex1
+    100214: rIndex2
+    100216: rIndex3
+    100218: rMid1
+    100220: rMid2
+    100222: rMid3
+    100224: rPectoral
+    100226: rPectoral 1
+    100228: rPectoral 2
+    100230: rPectoral 3
+    100232: rPinky1
+    100234: rPinky2
+    100236: rPinky3
+    100238: rRing1
+    100240: rRing2
+    100242: rRing3
+    100244: rShin
+    100246: rShin 1
+    100248: rShin 2
+    100250: rShldr
+    100252: rShldr 1
+    100254: rShldr 2
+    100256: rThigh
+    100258: rThigh 1
+    100260: rThigh 2
+    100262: rThumb1
+    100264: rThumb1 1
+    100266: rThumb2
+    100268: rThumb2 1
+    100270: rThumb3
+    100272: rToe
+    100274: rToe 1
+    100276: tongue01
+    100278: tongue02
+    100280: tongue03
+    100282: tongue04
+    100284: tongue05
+    100286: tongueBase
+    100288: tongueTip
+    100290: upperJaw
+    100292: upperJaw 1
+    100294: ValCharmH
+    100296: ValCharmH.Shape
+    400000: abdomen
+    400002: abdomen 1
+    400004: abdomen 2
+    400006: abdomen 3
+    400008: abdomen2
+    400010: abdomen2 1
+    400012: abdomen2 2
+    400014: abdomen2 3
+    400016: Casual Pants_17103
+    400018: Casual Pants_17103.Shape
+    400020: chest
+    400022: chest 1
+    400024: chest 2
+    400026: chest 3
+    400028: DoubleTshirtGenesis
+    400030: DoubleTshirtGenesis.Shape
+    400032: Genesis
+    400034: Genesis.Shape
+    400036: head
+    400038: head 1
+    400040: head 2
+    400042: hip
+    400044: hip 1
+    400046: hip 2
+    400048: hip 3
+    400050: //RootNode
+    400052: lBigToe
+    400054: lBigToe 1
+    400056: lCarpal1
+    400058: lCarpal1 1
+    400060: lCarpal2
+    400062: lCarpal2 1
+    400064: lCollar
+    400066: lCollar 1
+    400068: lCollar 2
+    400070: lCollar 3
+    400072: lEye
+    400074: lEye 1
+    400076: lFoot
+    400078: lFoot 1
+    400080: lForeArm
+    400082: lForeArm 1
+    400084: lForeArm 2
+    400086: lHand
+    400088: lHand 1
+    400090: lIndex1
+    400092: lIndex2
+    400094: lIndex3
+    400096: lMid1
+    400098: lMid2
+    400100: lMid3
+    400102: lowerJaw
+    400104: lowerJaw 1
+    400106: lPectoral
+    400108: lPectoral 1
+    400110: lPectoral 2
+    400112: lPectoral 3
+    400114: lPinky1
+    400116: lPinky2
+    400118: lPinky3
+    400120: lRing1
+    400122: lRing2
+    400124: lRing3
+    400126: lShin
+    400128: lShin 1
+    400130: lShin 2
+    400132: lShldr
+    400134: lShldr 1
+    400136: lShldr 2
+    400138: lThigh
+    400140: lThigh 1
+    400142: lThigh 2
+    400144: lThumb1
+    400146: lThumb1 1
+    400148: lThumb2
+    400150: lThumb2 1
+    400152: lThumb3
+    400154: lToe
+    400156: lToe 1
+    400158: neck
+    400160: neck 1
+    400162: neck 2
+    400164: neck 3
+    400166: pelvis
+    400168: pelvis 1
+    400170: pelvis 2
+    400172: pelvis 3
+    400174: rBigToe
+    400176: rBigToe 1
+    400178: rCarpal1
+    400180: rCarpal1 1
+    400182: rCarpal2
+    400184: rCarpal2 1
+    400186: rCollar
+    400188: rCollar 1
+    400190: rCollar 2
+    400192: rCollar 3
+    400194: rEye
+    400196: rEye 1
+    400198: rFoot
+    400200: rFoot 1
+    400202: rForeArm
+    400204: rForeArm 1
+    400206: rForeArm 2
+    400208: rHand
+    400210: rHand 1
+    400212: rIndex1
+    400214: rIndex2
+    400216: rIndex3
+    400218: rMid1
+    400220: rMid2
+    400222: rMid3
+    400224: rPectoral
+    400226: rPectoral 1
+    400228: rPectoral 2
+    400230: rPectoral 3
+    400232: rPinky1
+    400234: rPinky2
+    400236: rPinky3
+    400238: rRing1
+    400240: rRing2
+    400242: rRing3
+    400244: rShin
+    400246: rShin 1
+    400248: rShin 2
+    400250: rShldr
+    400252: rShldr 1
+    400254: rShldr 2
+    400256: rThigh
+    400258: rThigh 1
+    400260: rThigh 2
+    400262: rThumb1
+    400264: rThumb1 1
+    400266: rThumb2
+    400268: rThumb2 1
+    400270: rThumb3
+    400272: rToe
+    400274: rToe 1
+    400276: tongue01
+    400278: tongue02
+    400280: tongue03
+    400282: tongue04
+    400284: tongue05
+    400286: tongueBase
+    400288: tongueTip
+    400290: upperJaw
+    400292: upperJaw 1
+    400294: ValCharmH
+    400296: ValCharmH.Shape
+    2100000: Skullcap
+    2100002: Base
+    2100004: Bangs
+    2100006: Top
+    2100008: Wisps
+    2100010: 3_SkinFoot
+    2100012: 6_Eyelash
+    2100014: 5_Sclera
+    2100016: 5_Pupil
+    2100018: 5_Iris
+    2100020: 5_Cornea
+    2100022: 4_Tongue
+    2100024: 4_Teeth
+    2100026: 4_InnerMouth
+    2100028: 4_Gums
+    2100030: 3_SkinArm
+    2100032: 2_SkinTorso
+    2100034: 2_Nipple
+    2100036: 2_SkinNeck
+    2100038: 3_SkinForearm
+    2100040: 3_SkinLeg
+    2100042: 2_SkinHip
+    2100044: 2_SkinHead
+    2100046: 3_SkinHand
+    2100048: 7_Tear
+    2100050: 1_Nostril
+    2100052: 1_Lip
+    2100054: 5_Lacrimal
+    2100056: 1_SkinFace
+    2100058: 3_Fingernail
+    2100060: 3_Toenail
+    2100062: cloth
+    2100064: short_sleeves
+    2100066: long_sleeves
+    2100068: long_sleeves_cuffs
+    2100070: seam_bottom
+    2100072: seam_neck
+    2100074: PantBeltLoops
+    2100076: PantMain
+    2100078: PantPocket
+    2100080: PantWaist
+    2100082: PantAnkle
+    2100084: PantButton
+    4300000: ValCharmH.Shape
+    4300002: Genesis.Shape
+    4300004: DoubleTshirtGenesis.Shape
+    4300006: Casual Pants_17103.Shape
+    7400000: Animation
+    9500000: //RootNode
+    13700000: Casual Pants_17103.Shape
+    13700002: DoubleTshirtGenesis.Shape
+    13700004: Genesis.Shape
+    13700006: ValCharmH.Shape
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
